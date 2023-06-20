@@ -5,3 +5,7 @@ micaps 4 类数据转netcdf
 ```shell
 ./mvnw native:compile -Pnative  
 ```
+通过 -i 参数指定micaps4类文件，输出会在当前目录下生成一个output.nc文件
+```shell
+target/micaps -i /path/to/micaps
+```
